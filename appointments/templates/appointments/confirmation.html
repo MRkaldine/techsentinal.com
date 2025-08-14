@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Appointment Confirmation</title>
+  <link rel="stylesheet" href="{% static 'beauty.css' %}">
+    <script src="{% static 'mains.js' %}"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="{% url 'confirmation' %}">Book Another</a></li>
+        <li><a href="{% url 'beauty' %}">Home</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <h1>Appointment Submitted ✅</h1>
+    <p>Thank you for booking your appointment. We’ve received your details and will be in touch shortly to confirm.</p>
+    <a href="{% url 'beauty' %}" class="btn">Back to Home</a>
+  </div>
+</body>
+</html>

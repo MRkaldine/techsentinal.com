@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beauty & Spa | Rejuvenate Your Body & Mind</title>
+    <meta name="description" content="Experience luxury beauty treatments and spa services designed to refresh your body and mind. Book your appointment today!">
+    <link rel="stylesheet" href="{% static 'beauty.css' %}">
+    <script src="{% static 'mains.js' %}"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="{% url 'beauty' %}">Home</a></li>   
+        <li><a href="{% url 'services' %}">Services</a></li>
+        <li><a href="{% url 'contact' %}">Contact</a></li>
+        <li><a href="{% url 'about' %}">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="about">
+    <h1>About Us</h1>
+    <p>Welcome to Serenity Spa — your sanctuary in the heart of Johannesburg. We believe self-care is essential, not a luxury.</p>
+
+    <h2>Our Story</h2>
+    <p>Born from a passion for holistic healing and timeless beauty, Beauty & Spa was founded in 2021 by Soligha Hassim with a single dream — to craft a tranquil haven where city stress melts away and self-care blossoms.</p>
+
+    <h2>What We Offer</h2>
+    <p>From deep tissue massages to rejuvenating facials, our treatments are designed to restore balance and beauty.</p>
+
+    <h2>Our Promise</h2>
+    <p>We treat every guest like family. Your comfort, privacy, and wellbeing are our top priorities.</p>
+
+</body>
+</html>

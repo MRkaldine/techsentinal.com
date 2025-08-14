@@ -1,0 +1,290 @@
+
+/* ====== General Styles ====== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff8f0;
+    color: #333;
+}
+
+/* ====== Navigation Bar ====== */
+header nav {
+    background-color: #f4c2c2;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #8b0000;
+}
+
+/* ====== Hero Section ====== */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to right, #ffe4e1, #fff0f5);
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #8b0000;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #a52a2a;
+}
+
+/* ====== Gallery Section ====== */
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.post-img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* ====== About Page Section ====== */
+.about {
+    background-color: #fff8f0;
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+.about h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #8b0000;
+    margin-bottom: 20px;
+}
+
+.about h2 {
+    font-size: 1.8em;
+    color: #a52a2a;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.about p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    background-color: #fff0f5;
+    padding: 15px;
+    border-left: 5px solid #f4c2c2;
+    border-radius: 8px;
+}
+
+.about ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 30px;
+}
+
+.about ul li {
+    background-color: #ffe4e1;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-left: 5px solid #8b0000;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+
+/* ====== Services Section ====== */
+.services {
+    background-color: #fdf5e6;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.1em;
+}
+
+.services ul li {
+    margin: 10px 0;
+}
+
+
+.services-page {
+  background-color: #fff8f0;
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.services-page h1 {
+  text-align: center;
+  font-size: 2.5em;
+  color: #8b0000;
+  margin-bottom: 20px;
+}
+
+.services-page .intro {
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 40px;
+  color: #555;
+}
+
+.service-category {
+  margin-bottom: 40px;
+}
+
+.service-category h2 {
+  font-size: 1.8em;
+  color: #a52a2a;
+  margin-bottom: 15px;
+}
+
+.service-category ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.service-category ul li {
+  background-color: #fff0f5;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-left: 5px solid #f4c2c2;
+  border-radius: 8px;
+  color: #333;
+}
+
+.cta-section {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.cta-section a.cta-button {
+  background-color: #8b0000;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.cta-section a.cta-button:hover {
+  background-color: #a52a2a;
+}
+
+
+
+/* ====== Testimonials Section ====== */
+.testimonials {
+    background-color: #ffe4e1;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.testimonials blockquote {
+    font-style: italic;
+    margin: 20px auto;
+    max-width: 600px;
+    color: #555;
+}
+
+/* ====== Booking Form Section ====== */
+.booking {
+    background-color: #fff0f5;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.booking h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.booking form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.booking label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.booking input,
+.booking select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.booking button {
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+/* ====== Footer ====== */
+footer {
+    background-color: #f4c2c2;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+}

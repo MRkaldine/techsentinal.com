@@ -1,0 +1,48 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SALIHA'S Beauty & Spa | Rejuvenate Your Body & Mind</title>
+    <meta name="description" content="Experience luxury beauty treatments and spa services designed to refresh your body and mind. Book your appointment today!">
+    <link rel="stylesheet" href="{% static 'beauty.css' %}">
+    <script src="{% static 'mains.js' %}"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{% url 'beauty' %}">Home</a></li>   
+                <li><a href="{% url 'services' %}">Services</a></li>
+                <li><a href="{% url 'contact' %}">Contact</a></li>
+                <li><a href="{% url 'about' %}">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to Beauty & Spa</h1>
+        <p>Indulge in luxury treatments that restore your glow and inner peace.</p>
+
+    <section class="gallery">
+
+        <img src="{%static 'beauty images/beauty1.png' %}" alt="Facial Treatment" width="400" height="400">
+        <img src="{%static 'beauty images/beauty2.png' %}" alt="Relaxing Spa" width="400" height="400">
+        <img src="{%static 'beauty images/beauty3.png' %}" alt="Skincare Products" width="400" height="400">
+    </section>
+
+    <section class="testimonials">
+        <h2>What Our Clients Say</h2>
+        <blockquote>
+            "Absolutely the best spa experience I've ever had. My skin feels amazing!" – Thandi M.
+        </blockquote>
+        <blockquote>
+            "Professional, relaxing, and luxurious. Highly recommend!" – Sipho K.
+        </blockquote>
+    </section>
+</body>
+
+</html>
+
+

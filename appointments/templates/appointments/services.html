@@ -1,0 +1,69 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SALIHA'S Beauty & Spa | Rejuvenate Your Body & Mind</title>
+    <meta name="description" content="Experience luxury beauty treatments and spa services designed to refresh your body and mind. Book your appointment today!">
+    <link rel="stylesheet" href="{% static 'beauty.css' %}">
+<script src="{% static 'mains.js' %}"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{% url 'beauty' %}">Home</a></li>   
+                <li><a href="{% url 'services' %}">Services</a></li>
+                <li><a href="{% url 'contact' %}">Contact</a></li>
+                <li><a href="{% url 'about' %}">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+<section class="services-page">
+  <h1>Explore All Our Spa & Wellness Services</h1>
+  <p class="intro">Discover a sanctuary of relaxation and rejuvenation. Whether you're seeking deep healing, radiant skin, or a moment of peace, our curated treatments are designed to elevate your well-being.</p>
+
+  <div class="service-category">
+    <h2>🌿 Massage Therapies</h2>
+    <ul>
+      <li><strong>Hotstone Therapy:</strong> Melt away tension with warm basalt stones that soothe muscles and promote deep relaxation.</li>
+      <li><strong>Aromatherapy:</strong> A sensory journey using essential oils to calm the mind and uplift the spirit.</li>
+      <li><strong>Swedish Massage:</strong> Gentle strokes and kneading techniques to relieve stress and improve circulation.</li>
+      <li><strong>Reflexology:</strong> Pressure-point foot massage that supports overall wellness and energy flow.</li>
+    </ul>
+  </div>
+
+  <div class="service-category">
+    <h2>💆‍♀️ Skincare & Facials</h2>
+    <ul>
+      <li><strong>Deep Cleansing Facials:</strong> Purify and refresh your skin with targeted treatments for clarity and glow.</li>
+      <li><strong>Dermaplaning:</strong> Exfoliate and smooth your skin by removing dead cells and peach fuzz for a flawless finish.</li>
+      <li><strong>Holistic Facials:</strong> Natural ingredients and mindful techniques to nourish your skin and balance your energy.</li>
+    </ul>
+  </div>
+
+  <div class="service-category">
+    <h2>✨ Wellness & Body Treatments</h2>
+    <ul>
+      <li><strong>Full-Body Spa Treatments:</strong> Indulgent rituals that pamper you from head to toe, leaving you revitalized.</li>
+      <li><strong>Ear Candling:</strong> A calming experience believed to help with ear pressure and sinus relief.</li>
+      <li><strong>Waxing:</strong> Smooth, long-lasting results with gentle techniques for all skin types.</li>
+    </ul>
+  </div>
+
+  <div class="service-category">
+    <h2>🧴 Personalized Care</h2>
+    <ul>
+      <li><strong>Skincare Consultations:</strong> One-on-one guidance to help you choose the perfect treatments for your skin goals.</li>
+      <li><strong>Custom Packages:</strong> Combine services for a tailored spa experience that suits your lifestyle and budget.</li>
+    </ul>
+  </div>
+
+  <div class="cta-section">
+    <a href="{% url 'contact' %}" class="cta-button">Book Your Spa Experience</a>
+    <p>Have questions? Contact us for personalized recommendations.</p>
+  </div>
+</section>
+    
